@@ -31,14 +31,14 @@ var defaultBookmarkList = []BrowserBookmark{
 }
 
 var verificationBookmarkList = []BrowserBookmark{
-	{Name: "指纹检测", URL: fingerprintCheckBookmarkURL},
-	{Name: "IPPure", URL: "https://ippure.com/"},
-	{Name: "IPLark", URL: "https://iplark.com/"},
-	{Name: "Ping0", URL: "https://ping0.cc/"},
+	// {Name: "指纹检测", URL: fingerprintCheckBookmarkURL},
+	// {Name: "IPPure", URL: "https://ippure.com/"},
+	// {Name: "IPLark", URL: "https://iplark.com/"},
+	// {Name: "Ping0", URL: "https://ping0.cc/"},
 }
 
 var protectedBookmarkList = []BrowserBookmark{
-	{Name: "指纹检测", URL: fingerprintCheckBookmarkURL},
+	// {Name: "指纹检测", URL: fingerprintCheckBookmarkURL},
 }
 
 // BookmarkList 获取默认书签列表（优先 SQLite，降级 config.yaml）
